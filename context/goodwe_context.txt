@@ -1,0 +1,15 @@
+A GoodWe é uma empresa especializada em soluções de energia solar e armazenamento.
+
+O EV Challenge 2026 propõe dois sistemas principais:
+
+1. ChargeGrid Intelligence: sistema para eletropostos comerciais que orquestra
+potência, registra ciclos de carga, realiza faturamento e comunicação integrada.
+
+2. EV ChargeOps: sistema para condomínios que gerencia o uso compartilhado de
+carregadores entre moradores, com controle de acesso e faturamento individual.
+
+Personas atendidas:
+- Operador comercial: gerencia eletropostos em postos e empresas
+- Síndico: administra carregadores em condomínios
+- Morador: usa o carregador e acompanha seu consumo
+- Técnico: instala e realiza manutenção dos equipamentos
