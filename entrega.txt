@@ -1,0 +1,21 @@
+Sprint 1 — Chatbot GoodWe EV Challenge 2026
+
+Integrantes:
+
+Eduardo Oliveira             RM : 570374
+Timoteo de Andrade Romano    Rm : 569711
+Bruno Albuquerque Aguiar     Rm : 569035
+João Pedro Conturbia         Rm : 569788
+Enzo De Nadai                Rm : 569985
+Leonardo Duarte              Rm : 569029
+
+
+Repositório GitHub:
+https://github.com/eduardo-alm/chatbot-goodwe
+
+Conteúdo do repositório:
+- README com descrição do projeto, tecnologias e justificativa técnica
+- Fluxograma de funcionamento do chatbot (docs/fluxograma.png)
+- Modelo de teste com perguntas e respostas esperadas (docs/perguntas_teste.md)
+- System prompt elaborado (chatbot.py)
+- Código funcional do chatbot
