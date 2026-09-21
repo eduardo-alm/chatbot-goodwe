@@ -1,0 +1,86 @@
+modelo,teste,pergunta,resposta,nota,latencia_s,tokens
+qwen3:8b,1,O que é o ChargeGrid Intelligence?,"ChargeGrid Intelligence é um sistema desenvolvido pela GoodWe para gerenciar eletropostos comerciais de veículos elétricos. Ele orquestra a distribuição de potência, registra ciclos de carga, realiza o faturamento automatizado e integra comunicação com outros sistemas. É ideal para operadores comerciais que precisam controlar múltiplos carregadores em postos, empresas ou instalações, garantindo eficiência, segurança e gestão financeira das sessões de recarga.",10.0,28.42,1181
+qwen3:8b,2,Como funciona o faturamento no ChargeGrid Intelligence?,"O **faturamento no ChargeGrid Intelligence** é automatizado e integrado ao sistema, com base nas seguintes funcionalidades:
+
+1. **Integração com fornecedores de energia**:  
+   O sistema conecta-se a medidores de energia e fornecedores para registrar o consumo exato de cada sessão de recarga.
+
+2. **Cálculo de custos**:  
+   - Mede a energia consumida (em kWh) durante cada ciclo de carga.  
+   - Aplica tarifas pré-definidas (como tarifas horárias ou diárias) ou contratos de energia vigentes.  
+   - Calcula o valor total da sessão, incluindo impostos e custos operacionais.
+
+3. **Gerenciamento de contas**:  
+   - Cada eletroposto ou usuário (como uma empresa) tem um cadastro separado para faturamento.  
+   - Permite definições de limites de gasto, alertas de crédito e cobrança automática.
+
+4. **Relatórios e cobrança**:  
+   - Gera faturas detalhadas com dados de consumo, horários e custos.  
+   - Integra com sistemas de pagamento (como cartões corporativos ou plataformas de cobrança recorrente).
+
+5. **Comunicação integrada**:  
+   - Sincroniza dados em tempo real com sistemas de gestão de energia e operadores, garantindo transparência e reduzindo erros manuais.
+
+**Para operadores comerciais**, isso simplifica a gestão financeira, evita falhas de medição e oferece relatórios precisos para análise de custos. Se precisar de detalhes técnicos ou configurações específicas, consulte o suporte da GoodWe.",10.0,53.24,1772
+qwen3:8b,3,O que é o EV ChargeOps?,"O **EV ChargeOps** é um sistema desenvolvido pela GoodWe para condomínios e comunidades que possuem carregadores de veículos elétricos compartilhados. Ele permite gerenciar o uso dos carregadores entre moradores, controlar o acesso a cada ponto de recarga e facilitar o faturamento individual por consumo. 
+
+Com o EV ChargeOps, o síndico ou administrador do condomínio pode monitorar o uso da energia, garantir a equidade no consumo e assegurar que todos os moradores tenham acesso justo aos recursos. Moradores podem acompanhar seu histórico de uso e custos por meio de um interface intuitiva. 
+
+Essa solução faz parte do **EV Challenge 2026**, que busca modernizar a gestão de carregadores de veículos elétricos em diferentes cenários.",10.0,18.8,1076
+qwen3:8b,4,Como o síndico pode controlar o uso dos carregadores no condomínio?,"O síndico pode controlar o uso dos carregadores no condomínio por meio do **EV ChargeOps**, que oferece funcionalidades como:  
+
+1. **Controle de acesso**: Define horários e permissões para uso dos carregadores (ex.: limitar a carga durante horas de pico ou reservar slots para moradores específicos).  
+2. **Faturamento individual**: Gerencia cobrança por consumo, atribuindo custos a cada morador com base na energia utilizada.  
+3. **Monitoramento**: Acompanha o uso dos carregadores em tempo real e gera relatórios para garantir transparência e equidade.  
+
+Para detalhes técnicos ou configurações específicas, é recomendado consultar o suporte técnico da GoodWe.",10.0,32.17,1287
+qwen3:8b,5,O que fazer quando um eletroposto não responde?,"Para resolver o problema de um eletroposto não respondendo, siga estas etapas, adaptadas à sua persona:
+
+### **1. Identifique o sistema em uso:**  
+- **Se for ChargeGrid Intelligence (operador comercial/tecnico):**  
+  - Verifique a comunicação com o sistema central (ex: via Ethernet ou RS485).  
+  - Confira se o firmware do eletroposto está atualizado.  
+  - Reinicie o equipamento via interface de gerenciamento ou localmente.  
+  - Consulte os logs do sistema para identificar erros de comunicação ou falhas técnicas.  
+
+- **Se for EV ChargeOps (síndico/morador):**  
+  - Confirme se o carregador está ligado e se há indicação de erro no painel (ex: luzes vermelhas ou mensagens).  
+  - Verifique se o app ou plataforma de gestão (EV ChargeOps) está funcionando corretamente.  
+  - Reinicie o eletroposto desligando-o por 10 segundos e ligue novamente.  
+
+### **2. Ações gerais para todos:**  
+- **Verifique conexões elétricas e de comunicação:**  
+  - Certifique-se de que o cabo de alimentação e o cabo de comunicação estão firmes e sem danos.  
+- **Consulte a base de conhecimento da GoodWe:**  
+  Use a ferramenta `consultar_base_goodwe` para obter orientações específicas sobre erros comuns ou falhas técnicas.  
+
+### **3. Notifique o suporte técnico:**  
+Se o problema persistir após as etapas acima, entre em contato com o suporte da GoodWe para diagnóstico avançado.  
+
+Precisa de ajuda para identificar o sistema ou verificar logs?",5.0,63.82,1874
+llama3.1:8b,1,O que é o ChargeGrid Intelligence?,"O ChargeGrid Intelligence é um sistema desenvolvido pela GoodWe para eletropostos comerciais. Ele é responsável por orquestrar a potência, registrar ciclos de carga, realizar faturamento e garantir comunicação integrada entre os componentes do sistema. Isso permite uma gestão eficiente e transparente da recarga de veículos elétricos em postos e empresas.",10.0,8.43,838
+llama3.1:8b,2,Como funciona o faturamento no ChargeGrid Intelligence?,"O faturamento no ChargeGrid Intelligence é realizado de forma integrada com a plataforma, permitindo que os operadores comerciais gerenciem e faturem as cargas de energia de forma eficiente e transparente.
+
+Aqui estão os principais passos do faturamento no ChargeGrid Intelligence:
+
+1. **Registros de carga**: O ChargeGrid Intelligence registra todos os ciclos de carga realizados nos eletropostos, incluindo a quantidade de energia consumida e o tempo de carga.
+2. **Cálculo do consumo**: A plataforma calcula o consumo de energia de cada veículo, considerando fatores como a taxa de carga, o tempo de carga e a eficiência do veículo.
+3. **Faturamento**: O operador comercial pode configurar taxas de faturamento por unidade de energia (kWh) ou por período de tempo (hora, dia, mês). A plataforma calcula automaticamente o valor da fatura com base no consumo de energia e na taxa de faturamento configurada.
+4. **Emissão de faturas**: O ChargeGrid Intelligence emite faturas eletrônicas para os usuários, que podem ser visualizadas e baixadas em formato PDF.
+5. **Pagamento**: Os usuários podem pagar as faturas de forma online, utilizando cartões de crédito ou outros métodos de pagamento integrados.
+
+O faturamento no ChargeGrid Intelligence é uma ferramenta importante para os operadores comerciais, pois permite que eles gerenciem as receitas de forma eficiente e transparente, reduzindo o risco de perda de receita e melhorando a experiência do usuário.",10.0,10.17,1116
+llama3.1:8b,3,O que é o EV ChargeOps?,"O EV ChargeOps é um sistema desenvolvido pela GoodWe para gerenciar o uso compartilhado de carregadores entre moradores em condomínios. Com o EV ChargeOps, é possível controlar o acesso aos carregadores e realizar o faturamento individual para cada morador. Isso torna mais fácil e eficiente a gestão dos carregadores em condomínios, permitindo que os moradores usem os carregadores de forma segura e transparente.",10.0,3.86,858
+llama3.1:8b,4,Como o síndico pode controlar o uso dos carregadores no condomínio?,"O síndico pode controlar o uso dos carregadores no condomínio através do sistema EV ChargeOps. Com essa ferramenta, ele pode:
+
+* Gerenciar o acesso aos carregadores, permitindo ou negando o uso para cada morador;
+* Monitorar o consumo de energia de cada morador e realizar faturamento individual;
+* Receber notificações sobre o uso dos carregadores e realizar manutenção preventiva;
+* Analisar dados de uso e consumo para tomar decisões informadas sobre a gestão dos carregadores.
+
+Além disso, o síndico também pode configurar limites de tempo e energia para cada morador, garantindo que todos tenham acesso igualitário aos carregadores.",10.0,6.01,1139
+llama3.1:8b,5,O que fazer quando um eletroposto não responde?,"A resposta da base de dados GoodWe é:
+
+""Se um eletroposto não responde, é importante verificar se há problemas de conexão de rede ou se o sistema está com problemas de configuração. Além disso, é recomendável verificar se há atualizações disponíveis para o sistema e se elas foram aplicadas corretamente. Se o problema persistir, é recomendável entrar em contato com o suporte técnico da GoodWe para obter assistência adicional.""
+
+Lembre-se de que a GoodWe é uma empresa especializada em soluções de energia solar e armazenamento, e o EV Challenge 2026 é um projeto que visa promover a recarga de veículos elétricos de forma eficiente e segura.",0.0,6.26,1134
