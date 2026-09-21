@@ -1,0 +1,14 @@
+Sprint 3 — Chatbot GoodWe EV Challenge 2026
+
+Integrantes:
+
+Eduardo Oliveira             RM : 570374
+Timoteo de Andrade Romano    Rm : 569711
+Bruno Albuquerque Aguiar     Rm : 569035
+João Pedro Conturbia         Rm : 569788
+Enzo De Nadai                Rm : 569985
+Leonardo Duarte              Rm : 569029
+
+
+Repositório GitHub:
+https://github.com/eduardo-alm/chatbot-goodwe
